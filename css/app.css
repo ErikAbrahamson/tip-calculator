@@ -21,3 +21,9 @@ button {
   width: 150px;
   margin: 10px;
 }
+
+span {
+  font-size: 28px;
+  margin: 10px;
+  font-weight: bold;
+}
