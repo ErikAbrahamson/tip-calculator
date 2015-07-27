@@ -1,3 +1,19 @@
 body {
-  background-color: #Fb0;
+  background-color: #EED;
+  text-align: center;
+}
+
+input {
+  height: 20px;
+  width: 150px;
+}
+
+select {
+  display: block;
+  margin: 0 auto;
+  width: 150px;
+}
+
+button {
+  width: 150px;
 }
