@@ -13,7 +13,7 @@ function returnPercent(percentNum) {
   var getResult = amount * percent;
 
   var showResult = document.createElement('span');
-  var resultText = document.createTextNode('$' + getResult);
+  var resultText = document.createTextNode('You should tip $' + getResult);
 
   showResult.appendChild(resultText);
   document.getElementById('result').appendChild(showResult);
