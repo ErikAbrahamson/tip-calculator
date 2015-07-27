@@ -4,18 +4,15 @@ go.addEventListener('click', function() {
   returnPercent();
 });
 
-function returnPercent(percentNum) {
-
+function returnPercent() {
+  var span = document.getElementById('result');
+  span.innerHTML = null;
   var amount = document.getElementsByTagName('input')[0].value;
   var options = document.getElementsByTagName('select')[0];
   percentNum = options.selectedOptions[0].value;
   var percent = percentNum / 100;
   var getResult = amount * percent;
-
-  var showResult = document.createElement('span');
+  getResult = getResult.toFixed(2);
   var resultText = document.createTextNode('You should tip $' + getResult);
-
-  showResult.appendChild(resultText);
-  document.getElementById('result').appendChild(showResult);
-
+  span.appendChild(resultText);
 }
