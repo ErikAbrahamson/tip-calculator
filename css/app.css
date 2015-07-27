@@ -1,3 +1,5 @@
+@import 'https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css';
+
 body {
   background-color: #EED;
   text-align: center;
@@ -6,14 +8,16 @@ body {
 input {
   height: 20px;
   width: 150px;
+  margin: 10px;
 }
 
 select {
   display: block;
-  margin: 0 auto;
+  margin: 10px auto;
   width: 150px;
 }
 
 button {
   width: 150px;
+  margin: 10px;
 }
