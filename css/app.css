@@ -1,29 +1,6 @@
 @import 'https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css';
 
-body {
-  background-color: #EED;
-  text-align: center;
-}
-
-input {
-  height: 20px;
-  width: 150px;
-  margin: 10px;
-}
-
-select {
-  display: block;
-  margin: 10px auto;
-  width: 150px;
-}
-
-button {
-  width: 150px;
-  margin: 10px;
-}
-
-span {
-  font-size: 28px;
-  margin: 10px;
-  font-weight: bold;
+.container {
+  width: 75%;
+  margin: 0 auto;
 }
